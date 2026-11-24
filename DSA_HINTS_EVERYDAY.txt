@@ -1,0 +1,10 @@
+(24-11-26)
+
+lcm and gcd problem 
+lcm : after starting at what point all machines meet again (for understanding)
+hcf : how many max equal equal length pieces you can make using the two different ropes of different lengths 
+product(a,b) = lcm(a,b)*gcd(a,b)
+for gcd you learned the Euclidean algorithm like a, b will be there and after that reminder will be a%b then update a=b .b=reminder till b=0
+lcm is maximum exponent of the each prime number ;
+hcf min exponent of the each unique prime number 
+if a,b is pairwise coprimes the gcd(a,b)==1
