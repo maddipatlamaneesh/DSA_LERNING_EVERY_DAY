@@ -8,3 +8,23 @@ for gcd you learned the Euclidean algorithm like a, b will be there and after th
 lcm is maximum exponent of the each prime number ;
 hcf min exponent of the each unique prime number 
 if a,b is pairwise coprimes the gcd(a,b)==1
+
+(25-11-26)
+unique subarray problem 
+you can solve the problem with the nonrmal brute force 
+brute force approach is that ki in cpp unordermap<vector<int>,int> is not possible means
+vector cant be a key in the cpp it can be a value so we want to convert that into string with 
+, sperated betweeen the values.
+but with the brute force tle will come.
+OPTIMIZED approach
+find the suffixes of the array 
+prefixes of the suffixes are the subarrays
+prefixes is like st at 0 and end at particular and suffic is vice versa
+sort lexicographically 
+why we want to sort is if we sort then we can compare the sub arrays those exists in the both 
+we will find the LCP
+for this problem go through once with the : 1)kasai Algorithm 
+                                            2)Prefix Doubling Algorithm
+
+for this problem we can solve with the brute force but you will face the TLE 
+SUFFIX SORTED ARRAY AND RANK ARRAY AND FINDING THE LCP AND GO THROUGH THE algorithm properly.
