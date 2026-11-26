@@ -28,3 +28,17 @@ for this problem go through once with the : 1)kasai Algorithm
 
 for this problem we can solve with the brute force but you will face the TLE 
 SUFFIX SORTED ARRAY AND RANK ARRAY AND FINDING THE LCP AND GO THROUGH THE algorithm properly.
+
+
+(26-11-26)
+Stone game 
+like first 10 
+next move 9 
+like the who ever cant make move they will loose instead of checking every condition we can
+use only one condition all conditions not required we can use ALICce=!ALicee in every iter.
+
+Optimized the code by removing duplicate conditions for Alice and Bob. Used a boolean 
+variable to switch turns after every successful move, making the implementation cleaner, 
+shorter, and easier to understand while maintaining O(1) time and O(1) space complexity.
+
+
