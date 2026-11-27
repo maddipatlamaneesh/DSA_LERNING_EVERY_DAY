@@ -41,4 +41,10 @@ Optimized the code by removing duplicate conditions for Alice and Bob. Used a bo
 variable to switch turns after every successful move, making the implementation cleaner, 
 shorter, and easier to understand while maintaining O(1) time and O(1) space complexity.
 
+(27-11-26)
+this problem is a combo of DP+MATH+MONOTONIC DEQUEUE + REMAINDER GROUPING 
 
+GOOD QUESTION TO STUDY 
+
+good real worls problem optimization problem go through the problem once problem no if 
+leet code : 3946
